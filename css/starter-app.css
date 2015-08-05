@@ -251,8 +251,8 @@ md-card{
 
 @media screen and (max-width: 400px) {
   md-card{
-    width: 210px;
-    height: 280px
+    width: 250px;
+    height: 350px
   }
   md-card-footer{
   padding: 2px !important;

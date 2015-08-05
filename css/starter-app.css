@@ -248,6 +248,29 @@ md-card{
 
 }
 
+
+@media screen and (max-width: 400px) {
+  md-card{
+    width: 210px;
+    height: 280px
+  }
+  md-card-footer{
+  padding: 2px !important;
+}
+
+.circular {
+  width: 60px;
+  height: 60px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  }
+
+
+
+
+  }
+
 @media screen and (min-width: 960px) {
 .card{
  /* height: 260px;*/

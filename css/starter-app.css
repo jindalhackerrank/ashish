@@ -20,6 +20,10 @@ md-card{
 }
 
 md-card md-card-content{
+  height: 50%;
+}
+
+md-card md-card-content{
   padding: 4px !important;
 }
 
@@ -54,14 +58,14 @@ md-icon{
   float: right;
 }
 .img-responsive{
-	width: 188px;
-	height: 45px;
+	width: 140px;
+	height: 34px;
 	display: block;
 }
 
 .img-small{
-	width: 45px;
-  height: 44px;
+	width: 35px;
+  height: 34px;
 	height: auto;
 	
 	display: block;
@@ -87,7 +91,7 @@ md-icon{
   border-style: solid none solid solid;
   border-width: 1px medium 1px 1px;
   cursor: pointer;
-  height: 40px;
+  height: 35px;
   position: relative;
   width: 100% !important;
 }
@@ -219,7 +223,7 @@ md-card{
   color: #fff;
   font-size: 15px;
   font-weight: 400;
-  height: 40px;
+  height: 35px;
   letter-spacing: 1.5px;
   /*line-height: 48px;*/
   text-align: center;
@@ -235,7 +239,7 @@ md-card{
 	 background-color: #E5E5E5;
   border-radius: 5px 0 0 5px;
   display: inline-block;
-  height: 40px;
+  height: 35px;
   position: relative;
   width: 100%;
 }

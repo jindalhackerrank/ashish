@@ -1,0 +1,38 @@
+<div ng-include="'partials/header.html'"></div>
+
+<div layout="row" layout-align="start center" class="cards" layout-wrap>
+    <div class="card" flex-sm="100" flex-md="50" flex-gt-md="33" ng-repeat="doctor in doctors">
+        <md-card>
+            <div class="card-head" layout="row" layout-align="start center" layout wrap>
+                <!-- <img class="" src="11012834_1027940353946731_2272679326346775393_n.jpg" alt="Profile_Picture"> -->
+                <div class="card_image" flex="40">
+                    <img class="circular" src="11012834_1027940353946731_2272679326346775393_n.jpg" alt="Profile_Picture">
+                </div>
+                <div class="card_head_content" flex="60">
+                    <p> {{doctor.name}} </p>
+                    <p>{{doctor.age}} </p>
+                </div>
+            </div>
+            <md-card-content>
+                <div flex class="md-headline" layout="column" layout-align="center center">
+                    Card headline
+                </div>
+                <div flex class="md-subhead" layout="column" layout-align="center center">
+                    Card Sub-headline
+                </div>
+                
+            </md-card-content>
+            <md-divider></md-divider>
+            <md-card-footer class="profileCardFooter" layout-wrap layout="row" layout-align="start center">
+                <div flex="30" layout-align="start center">
+                    <!--  <md-button class="md-fab md-default" aria-label="Use Android"> -->
+                    <md-icon md-svg-src="images/icons/ic_favorite_border_black_48px.svg"></md-icon>
+                    <!--  </md-button> -->
+                </div>
+                <div flex="70" layout-align="start center">
+                    <md-button class="md-raised md-warn right">Book Appointment</md-button>
+                </div>
+            </md-card-footer>
+        </md-card>
+    </div>
+</div>

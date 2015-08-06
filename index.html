@@ -7,22 +7,7 @@
     <meta name="viewport" content="initial-scale=1" />
 </head>
 
-<body ng-controller="AppCtrl">
-    <script type="text/javascript">
-    function convertor(in_val) {
-
-        var ip;
-        var x = ("238.0.0.3").split(".");
-        var y;
-        y = ((x[0] << 24)) | ((x[1] << 16)) | ((x[2] << 8)) | (x[3]);
-        console.log(y);
-
-        return y;
-    }
-
-
-    convertor(168100097);
-    </script>
+<body >
     <div class="header">
         <div layout="row" layout-align="start center" class="main">
             <div id="logo_big" hide-sm show-gt-sm offset="5">
@@ -548,6 +533,7 @@
         </div>
     </div>
     <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
     <script src="bower_components/angular-animate/angular-animate.min.js"></script>
     <script src="bower_components/angular-aria/angular-aria.min.js"></script>
     <script src="bower_components/angular-material/angular-material.min.js"></script>

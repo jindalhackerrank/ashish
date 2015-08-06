@@ -20,7 +20,7 @@ MainApp.config(['$routeProvider',
 
 MainApp.controller("DoctorsList", ["$scope", "$http",
     function($scope, $http) {
-        $http.get('http://localhost:8080/api/doctor').success(function(data) {
+        $http.get('http://52.26.76.117/api/doctor').success(function(data) {
             $scope.doctors = data;
         });
 

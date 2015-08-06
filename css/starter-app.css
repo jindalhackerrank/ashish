@@ -9,13 +9,18 @@ body{
 }
 
 md-card-footer{
-  padding: 8px !important;
+  padding: 4px !important;
 }
 
 md-card{
   width: 300px;
-  height: 400px;
+  height: 350px;
   margin: auto;
+
+}
+
+md-card md-card-content{
+  padding: 4px !important;
 }
 
 md-icon{
@@ -27,7 +32,7 @@ md-icon{
 .header{
 	width: 100vw;
 	margin: 0 auto;
-	height: 60px;
+	height: 50px;
 	background:#14213D; 
   position: fixed;
   z-index: 100;
@@ -42,7 +47,7 @@ md-icon{
   width: 50px;
 }
 .main{
-	height: 60px;
+	height: 50px;
 }
 
 #search{
@@ -161,7 +166,7 @@ md-card{
  /* height: 260px;*/
  /* border: 1px solid black;*/
  padding: auto;
-  margin-bottom: 75px;
+  margin-bottom: 60px;
   margin-top: 15px;
 
 }

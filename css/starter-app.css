@@ -1,6 +1,29 @@
 body{
   /*background:#E5E5E5;*/
 }
+.card-image{
+  width: 100%;
+  height: auto;
+}
+md-grid-list md-grid-tile md-grid-tile-header{
+  height: 100%;
+}
+ md-grid-list {
+  margin: 8px; }
+ .gray {
+  background: #f5f5f5; }
+ .green {
+  background: #b9f6ca; }
+ .yellow {
+  background: #ffff8d; }
+ .blue {
+  background: #84ffff; }
+ .purple {
+  background: #b388ff; }
+ .red {
+  background: #ff8a80; }
+ md-grid-tile {
+  transition: all 400ms ease-out 50ms; }
 
 .md-toolbar-tools h1 {
   font-size: inherit;
@@ -255,6 +278,12 @@ md-card{
   margin: 80px auto;
 }
 
+ .cards1{
+  width: 1200px;
+  margin: 80px auto;
+}
+
+
 }
 
 
@@ -286,6 +315,10 @@ md-card{
  /* border: 1px solid black;*/
  padding: auto;
   
+}
+
+md-grid-list md-grid-tile md-grid-tile-header{
+  height: 45%;
 }
 
   }

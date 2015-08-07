@@ -1,5 +1,4 @@
 <div ng-include="'partials/header.html'"></div>
-
 <div layout="row" layout-align="start center" class="cards" layout-wrap>
     <div class="card" flex-sm="100" flex-md="50" flex-gt-md="33" ng-repeat="doctor in doctors">
         <md-card>
@@ -20,7 +19,6 @@
                 <div flex class="md-subhead" layout="column" layout-align="center center">
                     Card Sub-headline
                 </div>
-                
             </md-card-content>
             <md-divider></md-divider>
             <md-card-footer class="profileCardFooter" layout-wrap layout="row" layout-align="start center">
@@ -35,4 +33,17 @@
             </md-card-footer>
         </md-card>
     </div>
+</div>
+<div class="cards1">
+    <md-grid-list md-cols-sm="1" md-cols-md="2" md-cols-gt-md="4" md-row-height-gt-md="7:8" md-row-height-sm="3:2" md-row-height-md="3:2" md-gutter="12px" md-gutter-gt-sm="8px">
+        <md-grid-tile class="gray" ng-repeat="doctor in doctors">
+            <md-grid-tile-header>
+                <img class="card-image" src="11012834_1027940353946731_2272679326346775393_n.jpg" alt="Profile_Picture">
+            </md-grid-tile-header>
+            <md-grid-tile-footer>
+                <md-icon md-svg-src="images/icons/ic_favorite_border_black_48px.svg"></md-icon>
+                <md-button class="md-raised md-warn right">Book</md-button>
+            </md-grid-tile-footer>
+        </md-grid-tile>
+    </md-grid-list>
 </div>
